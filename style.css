@@ -1,0 +1,862 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general-nav {
+    display: flex;
+    gap: 10em;
+    /* margin: 20px 30px; */
+    /* background-color: #420080; */
+}
+
+.rice p {
+    position: relative;
+    bottom: 28px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.rice {
+    margin-top: 30px;
+    margin-left: 7em;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 30px;
+    /* margin-left: em; */
+    gap: 3em;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#anu {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.signs {
+    margin-top: 25px;
+    /* margin-left: 7em; */
+}
+
+.signs button {
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    font-size: 20px;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+}
+
+#yam {
+    background-color: grey;
+    border-radius: 10px;
+    width: 8rem;
+    padding: 10px;
+    margin-left: 2rem;
+    border: none;
+}
+
+.nwanne-nav {
+    margin: 5em 20px;
+}
+
+.nwanne-nav p {
+    margin-bottom: 1rem;
+    color: orange;
+}
+
+.nwanne-nav h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+span {
+    color: rgb(89, 104, 239);
+    text-decoration: underline;
+}
+
+#rey {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+
+.btns button {
+    background-color: rgb(251, 246, 246);
+    color: #420080;
+    font-weight: bold;
+    border: none;
+    width: 10em;
+    border-radius: 10px;
+    gap: 10em;
+    padding: 18px;
+}
+
+#nna {
+    background-color: #5c04af;
+    color: white;
+}
+
+#ara {
+    margin-left: 2em;
+}
+
+.npa-nav {
+    background-color: #f0f0ff;
+    background-image: url(img/line.png);
+    height: 40rem; 
+}
+
+.gen1 {
+    background-color: grey;
+    margin-top: 2em;
+    /* margin-left: 10em; */
+    height: 31rem;
+    width: 47rem;
+}
+
+.child {
+    position: absolute;
+    background-color: white;
+    width: 47rem;
+    height: 2rem;
+    display: flex;
+    gap: 5em;
+    /* margin-left: 15%; */
+}
+
+.chid { 
+    background-color: rgb(104, 103, 103);
+    border-radius: 50px;
+    width: 10px;
+    /* margin-left: 5em; */
+    height: 10px;
+    margin-top: 2% ;
+}
+
+.chod {
+    background-color: rgb(106, 105, 105);
+    border-radius: 50px;
+    width: 10px;
+    /* margin-left: 10%; */
+    height: 10px;
+    margin-top: 2% ;
+}
+
+.chrd {
+    background-color: rgb(105, 104, 104);
+    border-radius: 50px;
+    width: 10px;
+    /* margin-left: 10%; */
+    height: 10px;
+    margin-top: 2% ;
+}
+
+.flexam {
+    display: flex;
+    gap: 4em;
+    margin-top: 30px;
+    margin-left: 7em;
+}   
+
+.gui {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.gui h4 {
+     color: orange;
+     font-size: 20px;
+     margin-bottom: 10px;
+}
+
+.gui h2 {
+    color: rgb(45, 7, 84);
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.gui p {
+    color: grey;
+}
+
+.sq1 {
+    background-color: grey;
+    height: 40px;
+    width: 200px;
+}
+
+.squares {
+    display: flex;
+    gap: 2em;
+    margin-top: 5em;
+    margin-left: 8em;
+}
+
+.twi {
+    display: flex;
+    margin-top: 5em;
+    margin: 7em;
+}
+
+.twi h4 {
+    color: orange;
+    font-size: 15px;
+}
+
+.nio p {
+    color: grey;
+    margin-left: 25rem;
+    margin-top: 3em;
+    text-decoration: none;
+}
+
+.twi h1 {
+    color: rgb(45, 7, 84);
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.gem1 img {
+    position: relative;
+    margin-left: -40px;
+    margin-bottom: 2em;
+}
+
+.gem1 {
+    margin-left: 2em;
+    gap: 5em;
+    background-color: rgb(250, 248, 246);
+    width: 350px;
+    height: 350px;
+    /* margin: 5em; */
+    border-radius: 8px;
+    padding: 20px;
+    /* margin-right: 5em; */
+    /* gap: 10px; */
+    /* margin-bottom:10em; */
+    margin-top: -2em;
+}
+
+.presh h3 {
+    margin-bottom: 10px;
+    color: rgb(48, 48, 107);
+}
+
+.presh p {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+#nop {
+   color: #420080;
+}
+
+.presh {
+    margin-top: -5em;
+    margin-left: 1em;
+}
+
+.genem {
+    display: flex;
+    margin: 5em;
+}
+
+.yourp {
+    display: flex;
+    margin-left: 30px;
+    /* margin-top: 10em; */
+    gap: 18em;
+}
+
+.yourp h4 {
+    margin-top: 30px;
+}
+
+.yourp img {
+    margin-top: 30px;
+}
+
+.dimple {
+    margin-top: 2em;
+}
+
+.bad {
+    background-color:  rgb(250, 248, 246);
+    margin: 7em;
+    border-radius: 10px;
+    height: 37rem;
+    width:  30rem;
+}
+
+.contd1 {
+    display: flex;
+    background-color: rgb(226, 219, 219);
+    width: 28rem;
+    height: 5rem;
+    margin-left: 15px;
+    border-radius: 5px;
+    gap: 10em;
+    /* margin: 20px; */
+}
+.tkep {
+    margin-top: 0.8em;
+    margin: 10px;
+}
+
+.tkep h2 {
+    color: #453755;
+}
+
+.tkep p {
+    color: rgb(189, 173, 173);
+}
+
+.imte {
+    display: flex;
+    background-color: white;
+    gap: 10px;
+    margin-top: 1em;
+    width: 130px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.imte h2 {
+   margin-top: 10px;
+   margin-left: -8px;
+}
+
+i {
+    margin-left: 3px;
+}
+
+.imte img {
+    margin-top: 1em;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.simbl {
+    /* display: flex; */
+    margin: 28px;
+    color: grey;
+}
+
+.tro {
+    margin-left: 12em;
+    text-decoration: none;
+    color: grey;
+    justify-content: baseline;
+}
+
+.sepe {
+    margin-left: 12em;
+    text-decoration: none;
+    color: rgb(45, 41, 65);
+}
+
+.idr {
+    display: flex;
+    background-color: rgb(226, 219, 219);
+    width: 28rem;
+    height: 5rem;
+    margin-left: 11px;
+    border-radius: 5px;
+    gap: 7em;
+}
+
+.nbv {
+    display: flex;
+    background-color: white;
+    gap: 10px;
+    margin-top: 1em;
+    width: 125px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.nbv h2 {
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.idr img {
+    margin-top: 1em;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.ninl {
+    margin-top: 0.8em;
+    margin: 10px;
+}
+
+
+.ninl p {
+    color: grey;
+}
+
+.yeh button {
+    margin-top: 30px;
+    background: orangered;
+    width: 28rem;
+    font-size: 15px;
+    font-weight: bold;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.yeh p {
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.yeh p a {
+    text-decoration: none;
+}
+
+.gonb {
+    display: flex;
+    gap: 3em;
+}
+
+.july {
+    margin-top: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.july h4 {
+    color: orange;
+    font-size: 19px;
+}
+
+.july h1 {
+    color: #2e0752;
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+.july p {
+    margin-top: 30px;
+    color: rgb(169, 169, 169);
+}
+
+.around {
+    display: flex;
+    margin-top: 30px;
+    gap: 2em;
+}
+
+.around a {
+    margin-top: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.july button {
+    background-color: rgb(90, 70, 202);
+    border: none;
+    padding: 20px;
+    width: 10rem;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;font-weight: bold;
+}
+
+.migui {
+    margin-left: 5.5em;
+    margin-top: 8em;
+}
+
+.migui h4 {
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.migui h1 {
+    color:  #2e0752;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.migui p {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+
+
+.migui h2 {
+    color:  #2e0752;
+    margin-bottom: 30px;
+}
+
+.migui button {
+    text-decoration: none;
+    background-color: rgb(90, 70, 202) ;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 10rem;
+}
+
+.peomle {
+    display: flex;
+    gap: 10em;
+}
+
+.parters {
+    margin-top: 10em;
+}
+
+.cent {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cent h2 {
+    color: #2e0752;
+}
+
+.cent p {
+    color: grey;
+}
+
+.mepe {
+    background-color: azure;
+    width: 25rem;
+    margin-top: 30px;
+    height: 7rem;
+    padding: 20px;
+}
+
+.nmm1 {
+    display: flex;
+    gap: 10em;
+    margin-bottom: 10px ;
+}
+.nmm1 h3 {
+    color: #2e0752 ;
+}
+.nmm1 p {
+    color: grey;
+}
+
+.nmm2 {
+    display: flex;
+    gap: 3em;
+    margin-bottom: 10px ;
+}
+.nmm2 h3 {
+    color: #2e0752 ;
+}
+
+.nmm2 p {
+    color: grey;
+}
+
+.nm3 {
+    display: flex;
+    gap: 8em;
+    margin-bottom: 10px ;
+}
+
+.nm3 h3 {
+    color: lime ;
+}
+.nm3 {
+    color: grey;
+}
+
+.bnbn {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 10em;
+    color: grey;
+}
+
+.nmw {
+    display: flex;
+    gap: 0.5em;
+}
+
+.nmw p {
+    margin-top: 3px;
+}
+
+.grop p {
+    text-align: center;
+    
+}
+
+.grop p a {
+    text-decoration: none;
+}
+
+.pati1 {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.pati1 h4 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.pati1 h1 {
+    font-size: 40px;
+   color:  #2e0752;
+   margin-bottom: 20px;
+}
+
+.pati1 p {
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.n {
+    background-color: gray;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    bottom: 18em;
+    position: relative;
+    left: 42em;
+}
+
+.teres {
+    text-align: center;
+}
+
+.teres p {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.teres h4 {
+    color: #2e0752;
+    margin-bottom: 10px;
+}
+
+.on {
+    background-color: gray;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 0.5em;
+    left: 22em;
+    /* margin-bottom: 30px; */
+}
+
+.tho {
+    background-color: gray;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 21em;
+    top: 4em;
+}
+
+.thri {
+    background-color: gray;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 23em;
+    top: 7em;
+}
+
+.niol {
+    background-color: gray;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 64em;
+    bottom: 9em;
+}
+
+.mbh {
+    background-color: gray;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 66.5em;
+    bottom: 6em;
+}
+
+.lki {
+    background-color: gray;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 65em;
+    bottom: 2em;
+}
+
+.tet1 {
+    position: relative;
+    bottom: 18em;
+}
+
+.margin {
+    background-color: lightblue;
+    background-image: url(img/line.png);
+    text-align: center;
+    height: 25rem;
+    margin-top: -10em;
+}
+
+.body {
+   margin-top: -20px;
+} 
+
+
+.body h3 {
+    color: orange;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.nip h1 {
+    color: #2e0752;
+    font-size: 40px;
+    margin-top: 1.5em;
+}
+
+.nip  {
+    margin-top: -5em;
+}
+
+.nip p {
+    color: grey;
+    font-size: 20px;
+    margin-top: 30px;
+   
+}
+
+input {
+    height: 4rem;
+    padding:2.53rem 3rem;
+    width: 30rem;
+    margin-right: -5em;
+    color: grey;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.body img {
+    position: relative;
+    right: -3em;
+    top: 10px;
+    
+}
+
+.onus {
+    margin-top: 40px;
+}
+
+.body button {
+    background-color: rgb(90, 70, 202) ;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 8rem;
+    position: relative;
+    left: -3em;
+}
+
+.olks input {
+    height: 2.8rem;
+    background-color: rgb(197, 197, 201);
+    padding: 1rem 3rem;
+    width: 15rem;
+    margin-right: 5em;
+    color: grey;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.olks button {
+    background-color: rgb(90, 70, 202) ;
+    border: none ;
+    position: relative;
+    top: -2.8em;
+    left: 15em;
+    border-radius: 5px;
+}
+
+#nipe {
+    position: relative;
+    left: 20px;
+    top: 2.5em;
+}
+
+.flexing {
+    display: flex;
+    margin: 7rem 10rem;
+    gap: 5em;
+}
+
+.flexing h3 {
+    color: #5c04af;
+    margin-bottom: 20px;
+}
+
+.flexing p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+}
+
+#nri{
+    margin-left: 20em;
+    margin-top: 40px;
+}
+
+#img {
+    margin-left: 15em;
+    margin-top: 40px;
+}
